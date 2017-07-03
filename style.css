@@ -1,0 +1,167 @@
+/* Index */
+
+body {
+	background-color: hsl(20, 100%, 70%);
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	
+}
+
+li {
+	padding-right: 10px;
+	display: inline;
+	margin-right: 25px;
+}
+
+h1 {
+	font-family: 'Yellowtail', cursive;
+	font-size: 11em;
+	margin-top: -5px;
+	text-align: center;
+}
+
+ul {
+	font-family: 'Source Serif Pro', serif;
+}
+
+.sekcija{
+	font-family: 'Yellowtail', cursive;
+	font-size: 1.8em;
+	width: 100%;
+	max-width: 960px;
+	height: 600px;
+	margin: 200px auto;
+	box-sizing: border-box;
+	padding: 20px 20px;
+	text-align: justify;
+}
+
+.index-ada{
+	margin: 10px 235px;
+	border-radius: 20px;
+}
+
+nav {
+	margin-top: -120px;
+	font-size: 1.2em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a.active {
+    background-color: hsl(20, 100%, 40%);
+    color: white;
+    border-radius: 10px;
+}
+
+li a:hover:not(.active) {
+    background-color: hsl(20, 100%, 60%);
+    color: white;
+    border-radius: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+footer {
+	text-align: center;
+	margin-top: 50px;
+	padding-top: 300px;
+}
+
+
+
+/*Quotes*/
+
+.rectangle{
+	display:block;
+	height:100px;
+	width:290px;
+	border:1px solid black;
+	margin-top:50px;
+	margin-left: 85px;
+	border-radius: 20px;
+	padding: 50px 30px;
+	float:left;
+	text-align: justify;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 960px;
+	height: 600px;
+	margin: 200px auto;
+	box-sizing: border-box;
+	background: rgba(255, 255, 255, 0.4);
+	border-radius: 20px;
+}
+
+.text{
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.rectangle:hover .text{
+    opacity: 1;
+}
+
+/*Facts*/
+.aside-box{
+	width: 100%;
+	max-width: 400px;
+	height: 370px;
+	margin-top: -409px;
+	margin-left: 900px;
+}
+
+.facts-ada{
+	margin-top: 105px;
+	width: 700px;
+	margin-left: 105px;
+	border-radius: 20px;
+}
+
+@media only screen and (max-width:550px){
+	h1 {
+		font-family: 'Yellowtail', cursive;
+		font-size: 5em;
+		margin-top: -5px;
+		text-align: center;
+	}
+
+	nav {
+		margin-top: -50px;
+		font-size: 1.2em;
+	}
+
+	.index-ada{
+		display: none;
+	}
+
+	footer {
+		text-align: center;
+		padding-top: 400px;
+	}
+
+	.facts-ada{
+		width:300px;
+		height: 200px;
+	}
+
+	.aside-box{
+		width: 100%;
+		max-width: 400px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 50px;
+}
+
+
+}
